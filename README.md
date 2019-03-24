@@ -1,7 +1,7 @@
 # PLAyt
 Playlist Archiver for YouTube
 
-##Use:
+## Use:
 
 This script requires Python3 and youtube-dl, which can be installed with pip:
 ```
