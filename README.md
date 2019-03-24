@@ -10,7 +10,7 @@ If you want to set this up on a schedule, you can use schtasks in Windows or Cro
 
 * Windows:
 ```
-schtasks /create /sc daily /tn "PLAyt Assorted Vocolates" /tr "python C:\path\to\playt.py \"C:\path\where\you\want\My Sick Playlist\" https://www.youtube.com/playlist?list=BLAHBLAH" /st 13:00
+schtasks /create /sc daily /tn "PLAyt My Sick Playlist" /tr "python C:\path\to\playt.py \"C:\path\where\you\want\My Sick Playlist\" https://www.youtube.com/playlist?list=BLAHBLAH" /st 13:00
 ```
 * Linux: `crontab -e`, then add
 ```
