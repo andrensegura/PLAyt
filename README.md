@@ -1,12 +1,17 @@
 # PLAyt
 Playlist Archiver for YouTube
 
-Use:
+##Use:
 
+This script requires Python3 and youtube-dl, which can be installed with pip:
+```
+python -m pip install youtube_dl
+```
+
+Once installed, you can run it like:
 `python playt.py <PATH TO SAVE TO> <LINK TO PLAYLIST OR VIDEO>`
 
 If you want to set this up on a schedule, you can use schtasks in Windows or Cron in Linux:
-
 
 * Windows:
 ```
